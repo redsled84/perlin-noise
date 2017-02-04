@@ -193,7 +193,7 @@ function map:drawGrid()
 			if self:getN(x, y) == tiles.rooms.floor then
 				love.graphics.setColor(0,0,0)
 			elseif self:getN(x, y) == tiles.rooms.wall then
-				love.graphics.setColor(0,0,0)
+				love.graphics.setColor(255,0,0)
 			end
 			love.graphics.rectangle("fill", x*tileSize, y*tileSize, tileSize, tileSize)
 		end,

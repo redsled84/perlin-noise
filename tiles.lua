@@ -4,5 +4,5 @@ return {
 		floor = 1,
 		wall = 2
 	},
-	tileSize = 5
+	tileSize = 3
 }
